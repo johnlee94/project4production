@@ -6,15 +6,37 @@ Ever felt undecided as to what to eat on a boring Tuesday Night (sick of Taco Tu
 
 **Technologies:**
 
-MEAN
-
-
+MEAN stack (Mongodb, Express, Angular, Node.js)
 
 **Trello**
 
 https://trello.com/b/XITAARSp/project-4-wdi
 
-ERD/WireFrames:
+**Approach Taken**
+
+Set up users model first for authentication/authorization. Added user, challenge, request model to back end. Wired up challenges to interact properly with front end. Added search functionality using yelp fusion's API. Reworked front end for challenges model. Currently working on adding full CRUD to challenges model for front end (back end already configured). Cheers!
+
+**Known Bugs**
+
+Location address not passed properly to back end
+
+Cannot search if certain fields are left blank
+
+**Coming Soon**
+
+Filter search by categories (like ascending by price)
+
+Add full CRUD for challenges
+
+Add expiration functionality to challenges
+
+Requests Model!
+
+Friends Model!
+
+Better Style!
+
+**ERD/WireFrames:**
 
 ![ERD](assets/ERD.jpg)
 
@@ -22,3 +44,6 @@ ERD/WireFrames:
 
 ![Wireframes](assets/Wireframes.jpg)
 
+**Installation Instructions**
+
+Clone this repository into your environment. Run npm install with node. Port to localhost:3000.
