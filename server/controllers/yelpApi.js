@@ -1,10 +1,9 @@
 var passport  = require('passport'),
-    Yelp = require("yelp-api-v3"),
-    keys = require('./keys.js')
+    Yelp = require("yelp-api-v3")
 
 var yelp      = new Yelp({
-  app_id      : keys.YELP_ID,
-  app_secret  : keys.YELP_SECRET
+  app_id      : process.env.YELP_ID,
+  app_secret  : process.env.YELP_SECRET
 });
 
 function search(req, res) {
@@ -16,7 +15,6 @@ function search(req, res) {
       zipSearch = req.query.location
       // zipSearch  = req.query.zip === '' || req.query.zip.length !== 5 ? '90401' : req.query.zip;
 
-  console.log(process.env.YELP_ID)
   console.log('zipSearch:', zipSearch);
   console.log('searchTerm:', searchTerm);
   console.log('openNow:', openNow);
