@@ -1,0 +1,35 @@
+#yelpsGeneratedPic {
+  /*border: 1px solid gray !important;*/
+  width: 300px !important;
+  height: 200px !important;
+  margin: 0;
+  /*border-radius: 10px !important;*/
+}
+
+#searchContainer {
+  border: 3px black solid
+}
+
+.selected {
+  background-color: #e53c37
+}
+
+#brandImage {
+  margin-top: 5px;
+  height: 50px;
+  width: 70px;
+}
+
+#mainBanner {
+  background-image: url(http://i.imgur.com/d9ouCwW.png);
+  width: 100%;
+  height: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 0px;
+}
+
+#brandSpace {
+    padding: 0 !important;
+}
